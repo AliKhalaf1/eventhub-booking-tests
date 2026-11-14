@@ -4,7 +4,7 @@ UI and API tests for the **"Book tickets for an event"** flow of [EventHub](http
 
 **Stack:** Java 17 · Maven · JUnit 5 · Playwright for Java · RestAssured · AssertJ · GitHub Actions
 
-> The story review, findings, test design and decisions are in **[ANSWERS.md](ANSWERS.md)**.
+> The story review, findings, test design and decisions are in **[ISSUES.md](ISSUES.md)**.
 
 ---
 
