@@ -1,4 +1,4 @@
-# EventHub: booking flow automation (US-114)
+# EventHub: booking flow automation
 
 UI and API tests for the **"Book tickets for an event"** flow of [EventHub](https://eventhub.rahulshettyacademy.com).
 
