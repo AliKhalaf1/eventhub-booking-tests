@@ -1,0 +1,27 @@
+# Local credentials and overrides: never commit
+config.local.properties
+.env
+
+# Build output
+target/
+*.class
+
+# Playwright artifacts
+playwright-traces/
+test-results/
+
+# Local tool settings
+.claude/settings.local.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db

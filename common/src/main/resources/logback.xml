@@ -1,0 +1,18 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger{0} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Third-party libraries stay quiet; our framework logs (progress, login, clean-up) at INFO. -->
+    <logger name="org" level="WARN"/>
+    <logger name="io" level="WARN"/>
+    <logger name="com" level="WARN"/>
+    <logger name="net" level="WARN"/>
+    <logger name="ch" level="WARN"/>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

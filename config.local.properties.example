@@ -1,0 +1,14 @@
+# Copy this file to config.local.properties and fill in your accounts.
+
+USER_EMAIL=you@example.com
+USER_PASSWORD=your-password
+
+# Optional: second account for the cross-user test (skipped if empty)
+USER2_EMAIL=
+USER2_PASSWORD=
+
+BASE_URL=https://eventhub.rahulshettyacademy.com
+API_URL=https://api.eventhub.rahulshettyacademy.com/api
+BROWSER=chrome
+HEADLESS=true
+UI_TIMEOUT_MS=30000
